@@ -1,6 +1,5 @@
 name: daily git actions weather bot
-on: 
-    push:
+on:    
     schedule:
         - cron: "* * * * *"
 env:
