@@ -1,5 +1,6 @@
 name: daily git actions weather bot
-on: [push]
+on: 
+    push:
 jobs:
     Daily-Run:
         runs-on: ubuntu-latest
